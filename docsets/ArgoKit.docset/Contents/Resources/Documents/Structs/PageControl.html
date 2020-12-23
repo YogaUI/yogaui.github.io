@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PageControl Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/PageControl" class="dashAnchor"></a>
+    <a title="PageControl Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">ArgoKit 1.0.5 Docs</a> (5% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">ArgoKit Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        PageControl Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AlertView.html">AlertView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ArgoKitRefreshAutoFooter.html">ArgoKitRefreshAutoFooter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ArgoKitRefreshComponent.html">ArgoKitRefreshComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ArgoKitRefreshFooter.html">ArgoKitRefreshFooter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ArgoKitRefreshHeader.html">ArgoKitRefreshHeader</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ArgoKitTableView.html">ArgoKitTableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BlurEffectView.html">BlurEffectView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Grid.html">Grid</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GridFlowLayout.html">GridFlowLayout</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GridFlowLayout/ItemRenderDirection.html">– ItemRenderDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GridFlowLayout/AKSectionInsetReference.html">– AKSectionInsetReference</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GridWaterfallLayout.html">GridWaterfallLayout</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HStack.html">HStack</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/List.html">List</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ListContextualAction.html">ListContextualAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ListRowAction.html">ListRowAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ListSwipeActionsConfiguration.html">ListSwipeActionsConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProgressViewStyleConfiguration.html">ProgressViewStyleConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RefreshFooterView.html">RefreshFooterView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RefreshHeaderView.html">RefreshHeaderView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ScrollView.html">ScrollView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TabSegment.html">TabSegment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TextView.html">TextView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VStack.html">VStack</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ViewPage.html">ViewPage</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global%20Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:7ArgoKit0aB16RefreshLabelFontSo6UIFontCvp">ArgoKitRefreshLabelFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:7ArgoKit0aB21RefreshLabelTextColorSo7UIColorCvp">ArgoKitRefreshLabelTextColor</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ArgoKitRefreshState.html">ArgoKitRefreshState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIScrollView.html">UIScrollView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/GridDelegateFlowLayout.html">GridDelegateFlowLayout</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GridDelegateWaterfallLayout.html">GridDelegateWaterfallLayout</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ProgressViewStyle.html">ProgressViewStyle</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/ActivityIndicatorView.html">ActivityIndicatorView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ArgoKit0aB15RefreshAutoFootV">ArgoKitRefreshAutoFoot</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ArgoKit0aB12RefreshConstV">ArgoKitRefreshConst</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ArgoKit0aB11RefreshHeadV">ArgoKitRefreshHead</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ArgoKit0aB14RefreshKeyPathV">ArgoKitRefreshKeyPath</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Button.html">Button</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DatePicker.html">DatePicker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/EmptyView.html">EmptyView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForEach.html">ForEach</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Image.html">Image</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PageControl.html">PageControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PickerView.html">PickerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ProgressView.html">ProgressView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SegmenteControl.html">SegmenteControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Slider.html">Slider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Spacer.html">Spacer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Stepper.html">Stepper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Text.html">Text</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TextField.html">TextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Toggle.html">Toggle</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7ArgoKit21ViewPageChangedClosera">ViewPageChangedCloser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7ArgoKit28ViewPageTabScrollingListenera">ViewPageTabScrollingListener</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>PageControl</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">PageControl</span> <span class="p">:</span> <span class="kt">View</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit11PageControlV4nodeSo0aB4NodeCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/node" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit11PageControlV4nodeSo0aB4NodeCSgvp">node</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">node</span><span class="p">:</span> <span class="kt">ArgoKitNode</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit11PageControlV07currentC013numberOfPages02onC6ChangeACSi_SiySictcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(currentPage:numberOfPages:onPageChange:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit11PageControlV07currentC013numberOfPages02onC6ChangeACSi_SiySictcfc">init(currentPage:<wbr>numberOfPages:<wbr>onPageChange:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">currentPage</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">numberOfPages</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">onPageChange</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">currentPage</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit11PageControlV13numberOfPagesyACSiF"></a>
+                    <a name="//apple_ref/swift/Method/numberOfPages(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit11PageControlV13numberOfPagesyACSiF">numberOfPages(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>default is 0</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">numberOfPages</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">PageControl</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit11PageControlV07currentC0yACSiF"></a>
+                    <a name="//apple_ref/swift/Method/currentPage(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit11PageControlV07currentC0yACSiF">currentPage(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>default is 0. Value is pinned to 0..numberOfPages-1</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">currentPage</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">PageControl</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit11PageControlV014hidesForSingleC0yACSbF"></a>
+                    <a name="//apple_ref/swift/Method/hidesForSinglePage(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit11PageControlV014hidesForSingleC0yACSbF">hidesForSinglePage(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>hides the indicator if there is only one page, default is NO</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">hidesForSinglePage</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">PageControl</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit11PageControlV22pageIndicatorTintColoryACSo7UIColorCSgF"></a>
+                    <a name="//apple_ref/swift/Method/pageIndicatorTintColor(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit11PageControlV22pageIndicatorTintColoryACSo7UIColorCSgF">pageIndicatorTintColor(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The tint color for non-selected indicators. Default is nil.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">6.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">pageIndicatorTintColor</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">PageControl</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit11PageControlV07currentC18IndicatorTintColoryACSo7UIColorCSgF"></a>
+                    <a name="//apple_ref/swift/Method/currentPageIndicatorTintColor(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit11PageControlV07currentC18IndicatorTintColoryACSo7UIColorCSgF">currentPageIndicatorTintColor(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The tint color for the currently-selected indicators. Default is nil.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">6.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">currentPageIndicatorTintColor</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">PageControl</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit11PageControlV15backgroundStyleyACSo06UIPaged10BackgroundF0VF"></a>
+                    <a name="//apple_ref/swift/Method/backgroundStyle(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit11PageControlV15backgroundStyleyACSo06UIPaged10BackgroundF0VF">backgroundStyle(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The preferred background style. Default is UIPageControlBackgroundStyleAutomatic on iOS, and UIPageControlBackgroundStyleProminent on tvOS.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">14.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">backgroundStyle</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIPageControl</span><span class="o">.</span><span class="kt">BackgroundStyle</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">PageControl</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit11PageControlV16interactionStateSo06UIPaged11InteractionF0VyF"></a>
+                    <a name="//apple_ref/swift/Method/interactionState()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit11PageControlV16interactionStateSo06UIPaged11InteractionF0VyF">interactionState()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The current interaction state for when the current page changes. Default is UIPageControlInteractionStateNone</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">14.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">interactionState</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">UIPageControl</span><span class="o">.</span><span class="kt">InteractionState</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit11PageControlV27allowsContinuousInteractionyACSbF"></a>
+                    <a name="//apple_ref/swift/Method/allowsContinuousInteraction(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit11PageControlV27allowsContinuousInteractionyACSbF">allowsContinuousInteraction(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns YES if the continuous interaction is enabled, NO otherwise. Default is YES.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">14.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">allowsContinuousInteraction</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">PageControl</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit11PageControlV23preferredIndicatorImageyACSo7UIImageCSgF"></a>
+                    <a name="//apple_ref/swift/Method/preferredIndicatorImage(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit11PageControlV23preferredIndicatorImageyACSo7UIImageCSgF">preferredIndicatorImage(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The preferred image for indicators. Symbol images are recommended. Default is nil.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">14.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">preferredIndicatorImage</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">PageControl</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit11PageControlV14indicatorImage03forC0So7UIImageCSgSi_tF"></a>
+                    <a name="//apple_ref/swift/Method/indicatorImage(forPage:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit11PageControlV14indicatorImage03forC0So7UIImageCSgSi_tF">indicatorImage(forPage:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>@abstract Returns the override indicator image for the specific page, nil if no override image was set.
+@param page Must be in the range of 0..numberOfPages</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">14.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">indicatorImage</span><span class="p">(</span><span class="n">forPage</span> <span class="nv">page</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIImage</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit11PageControlV17setIndicatorImage_03forC0ACSo7UIImageCSg_SitF"></a>
+                    <a name="//apple_ref/swift/Method/setIndicatorImage(_:forPage:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit11PageControlV17setIndicatorImage_03forC0ACSo7UIImageCSg_SitF">setIndicatorImage(_:<wbr>forPage:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>@abstract Override the indicator image for a specific page. Symbol images are recommended.
+@param image    The image for the indicator. Resets to the default if image is nil.
+@param page      Must be in the range of 0..numberOfPages</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">14.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setIndicatorImage</span><span class="p">(</span><span class="n">_</span> <span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?,</span> <span class="n">forPage</span> <span class="nv">page</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">PageControl</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit11PageControlV4size16forNumberOfPagesSo6CGSizeVSi_tF"></a>
+                    <a name="//apple_ref/swift/Method/size(forNumberOfPages:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit11PageControlV4size16forNumberOfPagesSo6CGSizeVSi_tF">size(forNumberOfPages:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the minimum size required to display indicators for the given page count. Can be used to size the control if the page count could change.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">size</span><span class="p">(</span><span class="n">forNumberOfPages</span> <span class="nv">pageCount</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGSize</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit11PageControlV013defersCurrentC7DisplayyACSbF"></a>
+                    <a name="//apple_ref/swift/Method/defersCurrentPageDisplay(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit11PageControlV013defersCurrentC7DisplayyACSbF">defersCurrentPageDisplay(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>if set, tapping to a new page won&rsquo;t update the currently displayed page until -updateCurrentPageDisplay is called. default is NO</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span><span class="p">,</span> <span class="nv">introduced</span><span class="p">:</span> <span class="mf">2.0</span><span class="p">,</span> <span class="nv">deprecated</span><span class="p">:</span> <span class="mf">14.0</span><span class="p">,</span> <span class="nv">message</span><span class="p">:</span> <span class="s">"defersCurrentPageDisplay no longer does anything reasonable with the new interaction mode."</span><span class="p">)</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">defersCurrentPageDisplay</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">PageControl</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit11PageControlV013updateCurrentC7DisplayACyF"></a>
+                    <a name="//apple_ref/swift/Method/updateCurrentPageDisplay()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit11PageControlV013updateCurrentC7DisplayACyF">updateCurrentPageDisplay()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>update page display to match the currentPage. ignored if defersCurrentPageDisplay is NO. setting the page value directly will update immediately</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span><span class="p">,</span> <span class="nv">introduced</span><span class="p">:</span> <span class="mf">2.0</span><span class="p">,</span> <span class="nv">deprecated</span><span class="p">:</span> <span class="mf">14.0</span><span class="p">,</span> <span class="nv">message</span><span class="p">:</span> <span class="s">"updateCurrentPageDisplay no longer does anything reasonable with the new interaction mode."</span><span class="p">)</span>
+<span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">updateCurrentPageDisplay</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">PageControl</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit11PageControlV7padding3top5right6bottom4leftAcA0A5ValueO_A3JtF"></a>
+                    <a name="//apple_ref/swift/Method/padding(top:right:bottom:left:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit11PageControlV7padding3top5right6bottom4leftAcA0A5ValueO_A3JtF">padding(top:<wbr>right:<wbr>bottom:<wbr>left:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">padding</span><span class="p">(</span><span class="nv">top</span><span class="p">:</span> <span class="kt">ArgoValue</span><span class="p">,</span> <span class="nv">right</span><span class="p">:</span> <span class="kt">ArgoValue</span><span class="p">,</span> <span class="nv">bottom</span><span class="p">:</span> <span class="kt">ArgoValue</span><span class="p">,</span> <span class="nv">left</span><span class="p">:</span> <span class="kt">ArgoValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">PageControl</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit11PageControlV7padding4edge5valueAcA0A4EdgeO_AA0A5ValueOtF"></a>
+                    <a name="//apple_ref/swift/Method/padding(edge:value:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit11PageControlV7padding4edge5valueAcA0A4EdgeO_AA0A5ValueOtF">padding(edge:<wbr>value:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">padding</span><span class="p">(</span><span class="nv">edge</span><span class="p">:</span> <span class="kt">ArgoEdge</span><span class="p">,</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">ArgoValue</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">PageControl</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://git.wemomo.com/module/argokit" target="_blank" rel="external">MoMo</a>. All rights reserved. (Last updated: 2020-12-23)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

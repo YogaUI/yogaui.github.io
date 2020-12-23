@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GridFlowLayout Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/GridFlowLayout" class="dashAnchor"></a>
+    <a title="GridFlowLayout Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">ArgoKit 1.0.5 Docs</a> (5% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">ArgoKit Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        GridFlowLayout Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AlertView.html">AlertView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ArgoKitRefreshAutoFooter.html">ArgoKitRefreshAutoFooter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ArgoKitRefreshComponent.html">ArgoKitRefreshComponent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ArgoKitRefreshFooter.html">ArgoKitRefreshFooter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ArgoKitRefreshHeader.html">ArgoKitRefreshHeader</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ArgoKitTableView.html">ArgoKitTableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BlurEffectView.html">BlurEffectView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Grid.html">Grid</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GridFlowLayout.html">GridFlowLayout</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GridFlowLayout/ItemRenderDirection.html">– ItemRenderDirection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GridFlowLayout/AKSectionInsetReference.html">– AKSectionInsetReference</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GridWaterfallLayout.html">GridWaterfallLayout</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HStack.html">HStack</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/List.html">List</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ListContextualAction.html">ListContextualAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ListRowAction.html">ListRowAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ListSwipeActionsConfiguration.html">ListSwipeActionsConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProgressViewStyleConfiguration.html">ProgressViewStyleConfiguration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RefreshFooterView.html">RefreshFooterView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RefreshHeaderView.html">RefreshHeaderView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ScrollView.html">ScrollView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TabSegment.html">TabSegment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TextView.html">TextView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VStack.html">VStack</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ViewPage.html">ViewPage</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global%20Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:7ArgoKit0aB16RefreshLabelFontSo6UIFontCvp">ArgoKitRefreshLabelFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:7ArgoKit0aB21RefreshLabelTextColorSo7UIColorCvp">ArgoKitRefreshLabelTextColor</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ArgoKitRefreshState.html">ArgoKitRefreshState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIScrollView.html">UIScrollView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/GridDelegateFlowLayout.html">GridDelegateFlowLayout</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/GridDelegateWaterfallLayout.html">GridDelegateWaterfallLayout</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ProgressViewStyle.html">ProgressViewStyle</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/ActivityIndicatorView.html">ActivityIndicatorView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ArgoKit0aB15RefreshAutoFootV">ArgoKitRefreshAutoFoot</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ArgoKit0aB12RefreshConstV">ArgoKitRefreshConst</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ArgoKit0aB11RefreshHeadV">ArgoKitRefreshHead</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:7ArgoKit0aB14RefreshKeyPathV">ArgoKitRefreshKeyPath</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Button.html">Button</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DatePicker.html">DatePicker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/EmptyView.html">EmptyView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForEach.html">ForEach</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Image.html">Image</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PageControl.html">PageControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PickerView.html">PickerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ProgressView.html">ProgressView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SegmenteControl.html">SegmenteControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Slider.html">Slider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Spacer.html">Spacer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Stepper.html">Stepper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Text.html">Text</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TextField.html">TextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Toggle.html">Toggle</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7ArgoKit21ViewPageChangedClosera">ViewPageChangedCloser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:7ArgoKit28ViewPageTabScrollingListenera">ViewPageTabScrollingListener</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>GridFlowLayout</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">GridFlowLayout</span> <span class="p">:</span> <span class="kt">UICollectionViewFlowLayout</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit14GridFlowLayoutC11columnCount10forSectionS2i_tF"></a>
+                    <a name="//apple_ref/swift/Method/columnCount(forSection:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit14GridFlowLayoutC11columnCount10forSectionS2i_tF">columnCount(forSection:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">columnCount</span><span class="p">(</span><span class="n">forSection</span> <span class="nv">section</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit14GridFlowLayoutC26collectionViewContentWidth9ofSection12CoreGraphics7CGFloatVSi_tF"></a>
+                    <a name="//apple_ref/swift/Method/collectionViewContentWidth(ofSection:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit14GridFlowLayoutC26collectionViewContentWidth9ofSection12CoreGraphics7CGFloatVSi_tF">collectionViewContentWidth(ofSection:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">collectionViewContentWidth</span><span class="p">(</span><span class="n">ofSection</span> <span class="nv">section</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit14GridFlowLayoutC9itemWidth9inSection12CoreGraphics7CGFloatVSi_tF"></a>
+                    <a name="//apple_ref/swift/Method/itemWidth(inSection:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit14GridFlowLayoutC9itemWidth9inSection12CoreGraphics7CGFloatVSi_tF">itemWidth(inSection:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">itemWidth</span><span class="p">(</span><span class="n">inSection</span> <span class="nv">section</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit14GridFlowLayoutC19ItemRenderDirectionO"></a>
+                    <a name="//apple_ref/swift/Enum/ItemRenderDirection" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit14GridFlowLayoutC19ItemRenderDirectionO">ItemRenderDirection</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Classes/GridFlowLayout/ItemRenderDirection.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">ItemRenderDirection</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit14GridFlowLayoutC23AKSectionInsetReferenceO"></a>
+                    <a name="//apple_ref/swift/Enum/AKSectionInsetReference" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit14GridFlowLayoutC23AKSectionInsetReferenceO">AKSectionInsetReference</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Classes/GridFlowLayout/AKSectionInsetReference.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">AKSectionInsetReference</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://git.wemomo.com/module/argokit" target="_blank" rel="external">MoMo</a>. All rights reserved. (Last updated: 2020-12-23)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
